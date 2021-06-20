@@ -1,0 +1,256 @@
+:root {
+    --main-font: "Open Sans", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --accent-color: #2196F3;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+.title {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--wain-font);
+    font-weight: 600;
+}
+
+    /* header */
+
+.menu-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-family: Roboto;
+    color: #212121;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color)
+}
+
+.menu-link.current {
+    color: var(--accent-color)
+}
+
+.tel-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.tel-link:hover,
+.tel-link:focus {
+    color: var(--accent-color)
+}
+
+.hero-title {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+/* color: #FFFFFF; */
+}
+
+.modal-btn {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 187% */ 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;  
+    color: #FFFFFF;
+    background-color: #188CE8;
+  }
+  
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color:#2196F3;
+    color: #ffffff;
+  }
+
+  /* end header */
+
+  /* about */
+
+.parts_description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;  
+    color: #212121;
+  }
+
+.description {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 2;
+/* or 171% */
+letter-spacing: 0.03em;
+}
+
+.block_name_1 {   
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.27;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.block_name_2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.staff_name {
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.position {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* end about */
+
+
+/* footer */
+
+.lower_menu {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    color: #acacb0;     
+}
+
+.lower_menu:hover,
+.lower_menu:focus {
+    color: #FFFFFF;
+}
+
+/* .footer {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    background: #2F303A;
+} */
+
+/* end footer */
+
+
+            /* ============= PORTFOLIO ============== */
+
+
+/* style buttons */
+
+.portfolio_buttons_style{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: #212121;
+    font-style: normal;
+    border:none;
+
+}
+
+.portfolio_buttons_style:hover,
+.portfolio_buttons_style:focus {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2;
+    /* identical to box height, or 162% */
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    font-style: normal;
+    color: #FFFFFF;
+    background: #2196F3;
+    
+}
+
+/* end style buttons */
+
+.header_style {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: #212121;
+    font-style: normal;
+}
+
+.description_style {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.03em;
+    color: #757575;
+    font-style: normal;
+}
+
+/* out style buttons */
