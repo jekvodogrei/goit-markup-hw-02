@@ -1,7 +1,10 @@
 :root {
-    --main-font: "Open Sans", sans-serif;
+    --main-font: "Roboto", sans-serif;
     --secondary-font: "Raleway", sans-serif;
     --accent-color: #2196F3;
+    --title-color: #212121;
+    --text-color: #757575;
+    --secondary-color: #FFFFFF;
 }
 
 li {
@@ -15,7 +18,7 @@ li {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .list {
@@ -28,7 +31,6 @@ li {
 
 body {
     font-family: var(--wain-font);
-    font-weight: 600;
 }
 
     /* header */
@@ -39,8 +41,8 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    font-family: Roboto;
-    color: #212121;
+    font-family: var(--main-font);
+    color: var(--title-color);
 }
 
 .menu-link:hover,
@@ -53,13 +55,13 @@ body {
 }
 
 .tel-link {
-    font-family: Roboto;
+    font-family: var(--main-font);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--text-color);
 }
 
 .tel-link:hover,
@@ -68,22 +70,19 @@ body {
 }
 
 .hero-title {
-    font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-/* or 136% */
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-/* color: #FFFFFF; */
+    font-family: var(--main-font);
+    font-size: 44px;
+    line-height: 1.36;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+    font-weight: 900;
 }
 
 .modal-btn {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-family: var(--main-font);
     font-size: 16px;
     line-height: 1.87;
     /* identical to box height, or 187% */ 
@@ -91,14 +90,14 @@ text-transform: uppercase;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;  
-    color: #FFFFFF;
+    color: var(--secondary-color);
     background-color: #188CE8;
   }
   
 .modal-btn:hover,
 .modal-btn:focus {
-    background-color:#2196F3;
-    color: #ffffff;
+    background-color:var(--accent-color);
+    color: var(--secondary-color);
   }
 
   /* end header */
@@ -106,49 +105,45 @@ text-transform: uppercase;
   /* about */
 
 .parts_description {
-    font-family: Roboto;
+    font-family: var(--main-font);
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;  
-    color: #212121;
+    color: var(--title-color);
   }
 
 .description {
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 2;
-/* or 171% */
-letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    font-family: var(--main-font);
 }
 
-.block_name_1 {   
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+.first_block {   
+    font-family: var(--main-font);
     font-size: 36px;
     line-height: 1.27;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-color);
 }
 
-.block_name_2 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+.second_block {
+    font-family: var(--main-font);
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-color);
 }
 
 .staff_name {
     font-style: normal;
-    font-family: Roboto;
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -156,13 +151,11 @@ letter-spacing: 0.03em;
 }
 
 .position {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+    font-family: var(--main-font);
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
 }
 
 /* end about */
@@ -171,27 +164,17 @@ letter-spacing: 0.03em;
 /* footer */
 
 .lower_menu {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+    font-family: var(--main-font);
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.03em;
-    color: #acacb0;     
+    color: var(--text-color);     
 }
 
 .lower_menu:hover,
 .lower_menu:focus {
-    color: #FFFFFF;
+    color: var(--secondary-color);
 }
-
-/* .footer {
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    background: #2F303A;
-} */
 
 /* end footer */
 
@@ -202,13 +185,13 @@ letter-spacing: 0.03em;
 /* style buttons */
 
 .portfolio_buttons_style{
-    font-family: Roboto;
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 2;
     /* text-align: center; */
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-color);
     font-style: normal;
     border:none;
 
@@ -216,7 +199,7 @@ letter-spacing: 0.03em;
 
 .portfolio_buttons_style:hover,
 .portfolio_buttons_style:focus {
-    font-family: Roboto;
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 2;
@@ -224,32 +207,32 @@ letter-spacing: 0.03em;
     /* text-align: center; */
     letter-spacing: 0.03em;
     font-style: normal;
-    color: #FFFFFF;
-    background: #2196F3;
+    color: var(--secondary-color);
+    background: var(--accent-color);
     
 }
 
 /* end style buttons */
 
 .header_style {
-    font-family: Roboto;
+    font-family: var(--main-font);
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
     /* identical to box height, or 200% */
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--title-color);
     font-style: normal;
 }
 
 .description_style {
-    font-family: Roboto;
+    font-family: var(--main-font);
     font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
     /* identical to box height, or 187% */
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
     font-style: normal;
 }
 
